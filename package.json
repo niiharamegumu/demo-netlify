@@ -1,0 +1,24 @@
+{
+  "name": "demo-netlify",
+  "version": "1.0.0",
+  "description": "This is a netlify demo site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify-lambda serve ./api",
+    "build": "netlify-lambda build ./api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niiharamegumu/demo-netlify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niiharamegumu/demo-netlify/issues"
+  },
+  "homepage": "https://github.com/niiharamegumu/demo-netlify#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
