@@ -6,7 +6,7 @@ body {
     height: 12vw;
     width: 100%;
 }
-main h1 {
+h2 {
     margin: 50px 0;
 }
 footer {
@@ -27,7 +27,7 @@ footer {
         height: 20vw;
         width: 100%;
     }
-    h1 {
+    h2 {
         font-size: 24px;
     }
 }
